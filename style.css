@@ -1,0 +1,136 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: whitesmoke;
+    
+  
+ 
+   }
+
+
+
+#match {
+    font-family:'Playfair Display SC', serif; 
+    font-weight: 600; 
+    text-align: center; 
+    padding-top: 100px;
+}   
+
+#rock{
+    background:url(Icons/rock.png) no-repeat;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    background-size: 100%;
+    height: 200px;
+    width: 200px; 
+    border: none; 
+    }
+
+#paper{
+    background:url(Icons/paper.png) no-repeat;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    background-size: 100%;
+    height: 200px;
+    width: 200px; 
+    border: none; 
+    }   
+
+    
+
+
+#scissors{
+    background:url(Icons/scissors.png) no-repeat;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    background-size: 100%;
+    height: 200px;
+    width: 200px; 
+    border: none; 
+
+    }
+
+#choose {
+       
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 300px;
+    bottom: 0;
+    }
+
+
+
+
+#weaponchoices {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    align-items: flex-start;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 230px;
+    bottom: 0;
+
+    flex-wrap: wrap;
+
+
+    }
+
+
+
+
+.playerImage,
+.computerImage {
+    background-image: url(images/jason-dent-itA0ybdIDTs-unsplash.jpg) ;
+    width: 200px;
+    border-radius:50px;
+    
+}
+
+
+
+
+
+
+
+
+#PS {
+    font-family: 'STIX Two Math', serif;
+    font-size: 300px;
+    position: fixed;
+    bottom: -70px; 
+    left: 50px;
+    color: #a8000069; 
+    display: inline-block;
+    transform: scale(1,3);
+}
+
+
+
+
+#CP {
+    font-family: 'STIX Two Math', serif;
+    font-size: 300px;
+    position: fixed;
+    bottom: -70px; 
+    right: 50px;
+    color: #a8000069; 
+    display: inline-block;
+    transform: scale(1,3);
+}
+
+
+#background {
+    position:fixed; 
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
